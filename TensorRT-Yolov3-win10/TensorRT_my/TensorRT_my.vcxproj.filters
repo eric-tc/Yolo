@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{aafa0446-e03c-4f86-8331-5724c5e9d1e0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="argsParser.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="configs.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="dataReader.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="EntroyCalibrator.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="eval.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="PluginFactory.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="TrtNet.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="UpsampleLayer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="YoloConfigs.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="YoloLayer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CudaCompile Include="UpsampleLayer.cu" />
+    <CudaCompile Include="YoloLayer.cu" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dataReader.cpp" />
+    <ClCompile Include="EntroyCalibrator.cpp" />
+    <ClCompile Include="eval.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="TrtNet.cpp" />
+    <ClCompile Include="UpsampleLayer.cpp" />
+  </ItemGroup>
+</Project>
